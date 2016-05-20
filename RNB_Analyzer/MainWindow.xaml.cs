@@ -42,7 +42,8 @@ namespace RNB_Analyzer
             Title = "ПФ",
             Values = new ChartValues<ViewModel>(),
             Fill = Brushes.Transparent,
-            Stroke = Brushes.Blue
+            Stroke = Brushes.Blue,
+            PointRadius = 0
         };
 
         private LineSeries _AFH = new LineSeries
@@ -50,7 +51,8 @@ namespace RNB_Analyzer
             Title = "АФХ",
             Values = new ChartValues<ViewModel>(),
             Fill = Brushes.Transparent,
-            Stroke = Brushes.BlueViolet
+            Stroke = Brushes.BlueViolet,
+            PointRadius = 0
         };
 
         private LineSeries _ACH = new LineSeries
@@ -58,14 +60,16 @@ namespace RNB_Analyzer
             Title = "АЧХ",
             Values = new ChartValues<ViewModel>(),
             Fill = Brushes.Transparent,
-            Stroke = Brushes.Red
+            Stroke = Brushes.Red,
+            PointRadius = 0
         };
         private LineSeries _FCH = new LineSeries
         {
             Title = "ФЧХ",
             Values = new ChartValues<ViewModel>(),
             Fill = Brushes.Transparent,
-            Stroke = Brushes.BlueViolet
+            Stroke = Brushes.BlueViolet,
+            PointRadius = 0
         };
 
         private SeriesConfiguration<ViewModel> logConfig;
@@ -297,7 +301,7 @@ namespace RNB_Analyzer
                 case 2:
                     _AFH.Values.Clear();
                     
-                    for (var w = 0; w < upperValue; w++)
+                    for (var w = .0; w < 2.0; w+=0.1)
                     {
                         double ach = cur.ACH(w)* Sin(cur.FCH(w));
                         double fch = cur.ACH(w) * Cos(cur.FCH(w));

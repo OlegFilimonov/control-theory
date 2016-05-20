@@ -101,7 +101,7 @@
         <Label x:Name="label1_Copy5" Content="График справа:" HorizontalAlignment="Left" Margin="232,202,0,0" VerticalAlignment="Top" Height="26" Width="290"/>
         <lvc:LineChart x:Name="AFH_chart"
         	Series="{Binding AFHSeries}"
-        	Margin="10.4,10,10.4,0.4" LegendLocation="Right" Grid.Column="1" LineSmoothness="0.8" Grid.RowSpan="2" Visibility="Hidden" Zoom="XY" IsManipulationEnabled="True">
+        	Margin="10.4,10,10.4,0.4" LegendLocation="Right" Grid.Column="1" LineSmoothness="0.8" Grid.RowSpan="2" Visibility="Hidden">
 
             <lvc:LineChart.AxisY>
                 <lvc:Axis Title="Imag" LabelFormatter="{Binding XFormatter}" />

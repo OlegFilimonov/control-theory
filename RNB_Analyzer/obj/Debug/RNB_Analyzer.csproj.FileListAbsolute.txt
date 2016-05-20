@@ -14,3 +14,16 @@ C:\Users\Oleg\Documents\Visual Studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\ob
 C:\Users\Oleg\Documents\Visual Studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\obj\Debug\RNB_Analyzer.pdb
 C:\Users\Oleg\documents\visual studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\bin\Debug\Control_theory.exe.config
 C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\bin\Debug\Control_theory.exe.config
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\bin\Debug\Control_theory.exe
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\bin\Debug\Control_theory.pdb
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\bin\Debug\LiveCharts.dll
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\obj\Debug\RNB_Analyzer.csprojResolveAssemblyReference.cache
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\obj\Debug\MainWindow.baml
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\obj\Debug\MainWindow.g.cs
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\obj\Debug\App.g.cs
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\obj\Debug\Control_theory_MarkupCompile.cache
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\obj\Debug\Control_theory.g.resources
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\obj\Debug\control_theory.Properties.Resources.resources
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\obj\Debug\RNB_Analyzer.csproj.GenerateResource.Cache
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\obj\Debug\Control_theory.exe
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\obj\Debug\Control_theory.pdb

@@ -11,3 +11,16 @@ C:\Users\Oleg\documents\visual studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\ob
 C:\Users\Oleg\documents\visual studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\obj\Release\RNB_Analyzer.csproj.GenerateResource.Cache
 C:\Users\Oleg\documents\visual studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\obj\Release\RNB_Analyzer.exe
 C:\Users\Oleg\documents\visual studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\obj\Release\RNB_Analyzer.pdb
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\bin\Release\Control_theory.exe.config
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\bin\Release\Control_theory.exe
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\bin\Release\Control_theory.pdb
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\bin\Release\LiveCharts.dll
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\obj\Release\MainWindow.baml
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\obj\Release\MainWindow.g.cs
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\obj\Release\App.g.cs
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\obj\Release\Control_theory_MarkupCompile.cache
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\obj\Release\Control_theory.g.resources
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\obj\Release\control_theory.Properties.Resources.resources
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\obj\Release\RNB_Analyzer.csproj.GenerateResource.Cache
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\obj\Release\Control_theory.exe
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\obj\Release\Control_theory.pdb
