@@ -1,0 +1,117 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:lvc="clr-namespace:LiveCharts;assembly=LiveCharts"
+        xmlns:Tooltip="clr-namespace:LiveCharts.Tooltip;assembly=LiveCharts" x:Name="window" x:Class="RNB_Analyzer.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="560.4" Width="1360.702" Loaded="window_Loaded">
+
+    <Grid Margin="0,0,4.2,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="530*"/>
+            <ColumnDefinition Width="821*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <lvc:LineChart x:Name="TransformChart" Grid.Row="1"
+			Series="{Binding PFSeries}" Margin="15,15.4,15.6,15.4" LegendLocation="Right" RenderTransformOrigin="0.5,0.5" LineSmoothness="0.8">
+            <lvc:LineChart.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.069"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="0.399"/>
+                </TransformGroup>
+            </lvc:LineChart.RenderTransform>
+            <lvc:LineChart.Legend>
+                <lvc:ChartLegend/>
+            </lvc:LineChart.Legend>
+            <lvc:LineChart.AxisY>
+                <lvc:Axis Title="h(t)" Separator="{x:Static lvc:DefaultAxes.CleanSeparator}" LabelFormatter="{Binding XFormatter}"/>
+            </lvc:LineChart.AxisY>
+            <lvc:LineChart.AxisX>
+                <lvc:Axis Title="t,сек" LabelFormatter="{Binding XFormatter}" />
+            </lvc:LineChart.AxisX>
+        </lvc:LineChart>
+        <Label x:Name="label" Content="Тип звена:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="26" Width="67"/>
+        <Slider x:Name="kSlider" HorizontalAlignment="Left" Margin="229,41,0,0" VerticalAlignment="Top" Width="199" Height="18" ValueChanged="kSlider_ValueChanged" Maximum="100" Delay="100"/>
+        <Label x:Name="label1" Content="Передаточный коэффициент (k)" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Height="26" Width="214"/>
+        <Slider x:Name="psiSlider" HorizontalAlignment="Left" Margin="229,93,0,0" VerticalAlignment="Top" Width="199" Height="18" ValueChanged="slider_Copy_ValueChanged" Maximum="1" Delay="100" Minimum="-1"/>
+        <Label x:Name="label1_Copy" Content="Коэффициент демпфирования (ς)" HorizontalAlignment="Left" Margin="10,88,0,0" VerticalAlignment="Top" Height="26" Width="214"/>
+        <Slider x:Name="tSlider" HorizontalAlignment="Left" Margin="229,67,0,0" VerticalAlignment="Top" Width="199" Height="18" ValueChanged="tSlider_ValueChanged" Delay="100"/>
+        <Label x:Name="label1_Copy1" Content="Постоянная времени (T)" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top" Height="26" Width="214"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="229,10,0,0" VerticalAlignment="Top" Width="293" SelectionChanged="comboBox_SelectionChanged" Height="22"/>
+        <TextBox x:Name="kText" HorizontalAlignment="Left" Height="20" Margin="428,40,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="94" KeyDown="kText_KeyDown"/>
+        <TextBox x:Name="tText" HorizontalAlignment="Left" Height="20" Margin="428,66,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="94" KeyDown="tText_KeyDown"/>
+        <TextBox x:Name="psiText" HorizontalAlignment="Left" Height="20" Margin="428,94,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="94" KeyDown="psiText_KeyDown"/>
+
+        <lvc:LineChart x:Name="AchChart" Series="{Binding ACHSeries}" Margin="14.4,15,15.4,14.6" LegendLocation="Right" Grid.Row="0"
+                       Grid.Column="1" LineSmoothness="0.8">
+
+            <lvc:LineChart.Legend>
+                <lvc:ChartLegend/>
+            </lvc:LineChart.Legend>
+            <lvc:LineChart.AxisY>
+                <lvc:Axis Title="h(t)" LabelFormatter="{Binding XFormatter}"/>
+            </lvc:LineChart.AxisY>
+            <lvc:LineChart.AxisX>
+                <lvc:Axis Title="w,1/сек" LabelFormatter="{Binding XFormatter}" />
+            </lvc:LineChart.AxisX>
+        </lvc:LineChart>
+
+
+        <lvc:LineChart x:Name="PchChart"
+			Series="{Binding FCHSeries}"
+                       Margin="14.4,15.4,15.4,15.4" LegendLocation="Right" Grid.Column="1" Grid.Row="1" LineSmoothness="0.8">
+
+            <lvc:LineChart.Legend>
+                <lvc:ChartLegend/>
+            </lvc:LineChart.Legend>
+
+            <lvc:LineChart.AxisY>
+                <lvc:Axis Title="h(t)" LabelFormatter="{Binding XFormatter}" />
+            </lvc:LineChart.AxisY>
+
+            <lvc:LineChart.AxisX>
+                <lvc:Axis Title="w,1/сек" LabelFormatter="{Binding XFormatter}" />
+            </lvc:LineChart.AxisX>
+
+
+        </lvc:LineChart>
+        <Label x:Name="label1_Copy2" Content="Количество точек на графике" HorizontalAlignment="Left" Margin="10,119,0,0" VerticalAlignment="Top" Height="26" Width="214"/>
+        <Slider x:Name="pointsSlider" HorizontalAlignment="Left" Margin="229,122,0,0" VerticalAlignment="Top" Width="199" Height="18" ValueChanged="pointsSlider_ValueChanged" Maximum="200" Delay="100" SmallChange="1" Minimum="10" Value="20"/>
+        <TextBox x:Name="pointsText" HorizontalAlignment="Left" Height="20" Margin="428,122,0,0" TextWrapping="Wrap" Text="20" VerticalAlignment="Top" Width="94" KeyUp="pointsText_KeyUp"/>
+        <Label x:Name="label1_Copy3" Content="Границы графиков" HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top" Height="26" Width="214"/>
+        <TextBox x:Name="leftBorder" HorizontalAlignment="Left" Height="23" Margin="229,154,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="133" KeyUp="leftBorder_KeyUp"/>
+        <TextBox x:Name="rightBorder" HorizontalAlignment="Left" Height="23" Margin="367,153,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="155" KeyUp="rightBorder_KeyUp"/>
+        <ComboBox x:Name="bottomGraphComboBox" HorizontalAlignment="Left" Margin="10,233,0,0" VerticalAlignment="Top" Width="212" SelectionChanged="comboBox1_SelectionChanged" SelectedIndex="0">
+            <ListBoxItem Content="Переходная функция"/>
+            <ListBoxItem Content="Импульсная функция"/>
+        </ComboBox>
+        <ComboBox x:Name="rightGraphComboBox" HorizontalAlignment="Left" Margin="232,233,0,0" VerticalAlignment="Top" Width="290" SelectionChanged="comboBox1_Copy_SelectionChanged" SelectedIndex="0">
+            <ListBoxItem Content="АЧХ и ФЧХ"/>
+            <ListBoxItem Content="ЛАЧХ и ЛФЧХ"/>
+            <ListBoxItem Content="АФХ"/>
+        </ComboBox>
+        <Label x:Name="label1_Copy4" Content="График снизу:" HorizontalAlignment="Left" Margin="10,202,0,0" VerticalAlignment="Top" Height="26" Width="212"/>
+        <Label x:Name="label1_Copy5" Content="График справа:" HorizontalAlignment="Left" Margin="232,202,0,0" VerticalAlignment="Top" Height="26" Width="290"/>
+        <lvc:LineChart x:Name="AFH_chart"
+        	Series="{Binding AFHSeries}"
+        	Margin="10.4,10,10.4,0.4" LegendLocation="Right" Grid.Column="1" LineSmoothness="0.8" Grid.RowSpan="2" Visibility="Hidden" Zoom="XY" IsManipulationEnabled="True">
+
+            <lvc:LineChart.AxisY>
+                <lvc:Axis Title="Imag" LabelFormatter="{Binding XFormatter}" />
+            </lvc:LineChart.AxisY>
+
+            <lvc:LineChart.AxisX>
+                <lvc:Axis Title="Real" LabelFormatter="{Binding XFormatter}" />
+            </lvc:LineChart.AxisX>
+
+
+        </lvc:LineChart>
+    </Grid>
+</Window>

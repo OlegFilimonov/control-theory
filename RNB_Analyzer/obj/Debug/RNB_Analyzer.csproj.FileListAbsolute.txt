@@ -1,0 +1,16 @@
+c:\users\oleg\documents\visual studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\bin\Debug\RNB_Analyzer.exe.config
+C:\Users\Oleg\Documents\Visual Studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\bin\Debug\RNB_Analyzer.exe
+C:\Users\Oleg\Documents\Visual Studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\bin\Debug\RNB_Analyzer.pdb
+C:\Users\Oleg\Documents\Visual Studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\bin\Debug\LiveCharts.dll
+C:\Users\Oleg\Documents\Visual Studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\obj\Debug\RNB_Analyzer.csprojResolveAssemblyReference.cache
+C:\Users\Oleg\Documents\Visual Studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\obj\Debug\MainWindow.g.cs
+C:\Users\Oleg\Documents\Visual Studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\obj\Debug\App.g.cs
+C:\Users\Oleg\Documents\Visual Studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\obj\Debug\RNB_Analyzer_MarkupCompile.cache
+C:\Users\Oleg\Documents\Visual Studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\obj\Debug\MainWindow.baml
+C:\Users\Oleg\Documents\Visual Studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\obj\Debug\RNB_Analyzer.g.resources
+C:\Users\Oleg\Documents\Visual Studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\obj\Debug\RNB_Analyzer.Properties.Resources.resources
+C:\Users\Oleg\Documents\Visual Studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\obj\Debug\RNB_Analyzer.csproj.GenerateResource.Cache
+C:\Users\Oleg\Documents\Visual Studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\obj\Debug\RNB_Analyzer.exe
+C:\Users\Oleg\Documents\Visual Studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\obj\Debug\RNB_Analyzer.pdb
+C:\Users\Oleg\documents\visual studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\bin\Debug\Control_theory.exe.config
+C:\Users\Oleg\Source\Repos\control-theory\RNB_Analyzer\bin\Debug\Control_theory.exe.config

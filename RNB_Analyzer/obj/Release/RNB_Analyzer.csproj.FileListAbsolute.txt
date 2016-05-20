@@ -1,0 +1,13 @@
+C:\Users\Oleg\documents\visual studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\bin\Release\RNB_Analyzer.exe.config
+C:\Users\Oleg\documents\visual studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\bin\Release\RNB_Analyzer.exe
+C:\Users\Oleg\documents\visual studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\bin\Release\RNB_Analyzer.pdb
+C:\Users\Oleg\documents\visual studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\bin\Release\LiveCharts.dll
+C:\Users\Oleg\documents\visual studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\obj\Release\MainWindow.baml
+C:\Users\Oleg\documents\visual studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\obj\Release\MainWindow.g.cs
+C:\Users\Oleg\documents\visual studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\obj\Release\App.g.cs
+C:\Users\Oleg\documents\visual studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\obj\Release\RNB_Analyzer_MarkupCompile.cache
+C:\Users\Oleg\documents\visual studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\obj\Release\RNB_Analyzer.g.resources
+C:\Users\Oleg\documents\visual studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\obj\Release\RNB_Analyzer.Properties.Resources.resources
+C:\Users\Oleg\documents\visual studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\obj\Release\RNB_Analyzer.csproj.GenerateResource.Cache
+C:\Users\Oleg\documents\visual studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\obj\Release\RNB_Analyzer.exe
+C:\Users\Oleg\documents\visual studio 2015\Projects\RNB_Analyzer\RNB_Analyzer\obj\Release\RNB_Analyzer.pdb
